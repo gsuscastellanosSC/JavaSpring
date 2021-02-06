@@ -27,6 +27,8 @@
             * Incluye gestión de dependencias iniciales, configuración automática y más.
 # Class#8
     Crear nuestra aplicación con Spring Initializr
+# Class#9
+    Hola mundo con Spring Boot
 # Links:
     Spring Initializr:
         https://start.spring.io/
