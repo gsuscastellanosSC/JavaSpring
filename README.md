@@ -10,6 +10,8 @@
             docker run -d -p 5432:5432 --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword postgres -c shared_buffers=256MB -c max_connections=200
 # Class#4
     Instalación de ambiente de desarrollo: macOS
+# Class#5
+    Instalación de ambiente de desarrollo: Windows
 # Links:
     Download posman:
         postman.com/downloads
