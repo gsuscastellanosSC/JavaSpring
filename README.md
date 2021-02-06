@@ -12,7 +12,15 @@
     Instalación de ambiente de desarrollo: macOS
 # Class#5
     Instalación de ambiente de desarrollo: Windows
+# Class#6
+    ¿Qué es y qué usaremos de Spring?
+        Spring Framework: Proyecto que permite la creación de aplicaciones modernas.
+        Spring Boot: Permite la creación de aplicaciones auto contenidas y autoconfigurables. 
+        Spring Data JPA(Csandra, mongo DB): Permite la gestión e integración de BD con las aplicaciones.
+        Spring Security: Gestión de la seguridad de toda la seguridad de las aplicaciones.
 # Links:
+    Spring:
+        https://spring.io/projects
     Download posman:
         postman.com/downloads
     How install postgres in Docker:
