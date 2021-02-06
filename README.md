@@ -25,7 +25,11 @@
             * Permite olvidarnos de la infraestructura y centrarnos en el desarrollo.
             * Puede funcionar con Tomcat(por defecto), Jetty o Undertow.
             * Incluye gestión de dependencias iniciales, configuración automática y más.
+# Class#8
+    Crear nuestra aplicación con Spring Initializr
 # Links:
+    Spring Initializr:
+        https://start.spring.io/
     Spring:
         https://spring.io/projects
     Download posman:
