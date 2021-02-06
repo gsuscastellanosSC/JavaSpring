@@ -18,6 +18,13 @@
         Spring Boot: Permite la creación de aplicaciones auto contenidas y autoconfigurables. 
         Spring Data JPA(Csandra, mongo DB): Permite la gestión e integración de BD con las aplicaciones.
         Spring Security: Gestión de la seguridad de toda la seguridad de las aplicaciones.
+# Class#7
+    Conocer qué es una aplicación autocontenida
+        Spring Boot
+            * Es el proyecto de Spring para aplicaciones auto contenidas.
+            * Permite olvidarnos de la infraestructura y centrarnos en el desarrollo.
+            * Puede funcionar con Tomcat(por defecto), Jetty o Undertow.
+            * Incluye gestión de dependencias iniciales, configuración automática y más.
 # Links:
     Spring:
         https://spring.io/projects
