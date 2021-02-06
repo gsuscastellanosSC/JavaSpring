@@ -29,7 +29,11 @@
     Crear nuestra aplicación con Spring Initializr
 # Class#9
     Hola mundo con Spring Boot
+# Class#10    
+    Configurar Spring Boot
 # Links:
+    Common Application properties:
+        https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
     Spring Initializr:
         https://start.spring.io/
     Spring:
