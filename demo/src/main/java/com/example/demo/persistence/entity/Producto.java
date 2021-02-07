@@ -1,11 +1,6 @@
 package com.example.demo.persistence.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "productos")
@@ -29,6 +24,10 @@ public class Producto {
 
     @Column(name="cantidad_stock")
     private Integer cantidadStock;
+
+    @ManyToOne
+    @JoinColumn(name = "id_categoria", insertable = false, updatable = false)
+    private Categoria categoria;
 
     public Integer getIdproducto() {
         return idproducto;

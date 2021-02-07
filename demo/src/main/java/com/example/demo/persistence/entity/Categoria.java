@@ -1,6 +1,7 @@
 package com.example.demo.persistence.entity;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name="Categorias")
@@ -12,6 +13,9 @@ public class Categoria {
 
     private String descripcion;
     private boolean estado;
+
+    @OneToMany(mappedBy = "categoria")
+    private List <Producto> productos;
 
     public Integer getIdCategoria() {
         return idCategoria;
