@@ -33,7 +33,7 @@
     Configurar Spring Boot
 # Class#11
     Crear la estructura del proyecto
-# Class#12
+
     ¿Qué es JPA?
         "Java Persistence API, más conocida por sus siglas JPA, es la API de persistencia desarrollada para la plataforma Java EE. Es un framework del lenguaje de programación Java que maneja datos relacionales en aplicaciones usando la Plataforma Java en sus ediciones Standard y Enterprise."
             * JPA es una especificación de Java(Un estándar) para un framework ORM.
@@ -48,7 +48,15 @@
             * @Id & @EmbededId(Representan el primary key y primary key compuestas, respectivamente)
             * @GeneratedValue(Permite generar valores automaticos para las primary key)
             * @OneToMany & @ManyToOne(Indica las relaciones de las tablas)
+# Class#13
+    Conocer qué es Spring Data
+        * Es un proyecto que internamente contiene otros, nosotros usaremos el Spring Data JPA
+        * Optimización de tareas repetitivas
+        * Repositorios sin código con JPARepository, CrudRepository & PagingAndSortingRepository
+        * Auditorías transparentes
 # Links:
+    mvnrepository:
+        https://mvnrepository.com/
     Common Application properties:
         https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
     Spring Initializr:
