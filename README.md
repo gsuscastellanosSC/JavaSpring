@@ -56,8 +56,10 @@
         * Auditorías transparentes
 # Class#14
     Conectar la base de datos a nuestra aplicación
-# Class#15    
+# Class#15
     Mapear las tablas como clases
+# Class#16    
+    Crear Entity cuando su clave primaria es compuesta
 # Links:
     Conectar la base de datos a nuestra aplicación:
         https://drive.google.com/file/d/1MhNMwcxSvRYNfA8H3NjOtixSPM6Ovwaa/view
