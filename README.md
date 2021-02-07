@@ -33,6 +33,21 @@
     Configurar Spring Boot
 # Class#11
     Crear la estructura del proyecto
+# Class#12
+    ¿Qué es JPA?
+        "Java Persistence API, más conocida por sus siglas JPA, es la API de persistencia desarrollada para la plataforma Java EE. Es un framework del lenguaje de programación Java que maneja datos relacionales en aplicaciones usando la Plataforma Java en sus ediciones Standard y Enterprise."
+            * JPA es una especificación de Java(Un estándar) para un framework ORM.
+            * Interactua con las tablas de la base de datos en forma de objetos Java.
+            * Algunas de sus implementaciones son:
+                - Hibernate         - EclipseLink
+                - TopLink           - ObjectDB
+        Anotaciones de JPA:
+            * @Entity(Indica a la clase Java que esta representando un objeto del modelo de datos)
+            * @Table(Nombre de la tabla que esta mapeando la clase java)
+            * @Column(Anotación que se le pone a los atributos de la clase, aplica solo cuanto el nombre del atributo es diferente al del valor del atributo de la tabla)
+            * @Id & @EmbededId(Representan el primary key y primary key compuestas, respectivamente)
+            * @GeneratedValue(Permite generar valores automaticos para las primary key)
+            * @OneToMany & @ManyToOne(Indica las relaciones de las tablas)
 # Links:
     Common Application properties:
         https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
