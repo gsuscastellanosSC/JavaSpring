@@ -54,7 +54,13 @@
         * Optimización de tareas repetitivas
         * Repositorios sin código con JPARepository, CrudRepository & PagingAndSortingRepository
         * Auditorías transparentes
+# Class#14
+    Conectar la base de datos a nuestra aplicación
 # Links:
+    Conectar la base de datos a nuestra aplicación:
+        https://drive.google.com/file/d/1MhNMwcxSvRYNfA8H3NjOtixSPM6Ovwaa/view
+    schema.sql - Google Drive:
+        https://drive.google.com/file/d/1DZTGB-BC3LqoZLN_UK8uyt4_eZP-MfBl/view
     mvnrepository:
         https://mvnrepository.com/
     Common Application properties:
