@@ -62,6 +62,11 @@
     Crear Entity cuando su clave primaria es compuesta
 # Class#17
     Mapear relaciones entre clases
+# Class#18
+    Usar la interface CrudRepository
+        CrudRepository
+        PagingAndSortingRepository
+        JPARepository
 # Links:
     Conectar la base de datos a nuestra aplicación:
         https://drive.google.com/file/d/1MhNMwcxSvRYNfA8H3NjOtixSPM6Ovwaa/view
